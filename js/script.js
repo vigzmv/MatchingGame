@@ -34,7 +34,7 @@ function generateFaces(){
     theRightSide.appendChild(leftSideImages);
 
     theBody.onclick = function gameOver() {
-	theLeftSide.lastChild.border = "10";
+	theLeftSide.lastChild.border = "4";
         alert("Game Over!");
         theBody.onclick = null;
         theLeftSide.lastChild.onclick = null;

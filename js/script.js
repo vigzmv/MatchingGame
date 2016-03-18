@@ -19,7 +19,7 @@ function generateFaces(){
     theLeftSide.lastChild.onclick=
         function nextLevel(event) {
             event.stopPropagation();
-            numberOfFaces += 5;
+            numberOfFaces += 3;
             while (theLeftSide.firstChild) {
                 theLeftSide.removeChild(theLeftSide.firstChild);
             }
